@@ -21,7 +21,7 @@ function EditTodoForm({editTodo, task}){
         <div className="TodoForm">
             <form className="TodoForm" onSubmit={handleSubmit}>
                 <input type="text" value={value} className='todo-input' onChange={handleChange} placeholder="Update Task"/>
-                <button type="submit" className='todo-btn'>Update Task</button>
+                <button type="submit" className='todo-btn'>Update Tasks</button>
             </form>
         </div>
     )
